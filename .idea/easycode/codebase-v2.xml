@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="com.obiscr.chatgpt.settings.EasyCodeState">
+    <option name="projectFiles" value="$PROJECT_DIR$/Xxy-admin/pom.xml;D:/JAVA学习/Blog/Xxy-blog/src/main/java/com/Xxy/controller/ArticleController.java;D:/JAVA学习/Blog/Xxy-blog/src/main/java/com/Xxy/XxyBlogApplication.java;D:/JAVA学习/Blog/Xxy-blog/src/main/resources/application.yaml;D:/JAVA学习/Blog/Xxy-blog/pom.xml;D:/JAVA学习/Blog/XxyFramWork/src/main/java/com/Xxy/domain/entity/Article.java;D:/JAVA学习/Blog/XxyFramWork/src/main/java/com/Xxy/mapper/ArticleMapper.java;D:/JAVA学习/Blog/XxyFramWork/src/main/java/com/Xxy/service/impl/ArticleService.java;D:/JAVA学习/Blog/XxyFramWork/src/main/java/com/Xxy/service/ArticleService.java;D:/JAVA学习/Blog/XxyFramWork/pom.xml;D:/JAVA学习/Blog/pom.xml" />
+  </component>
+</project>
