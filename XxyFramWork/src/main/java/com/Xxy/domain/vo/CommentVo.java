@@ -28,6 +28,8 @@ public class CommentVo {
 
     private Long createBy;
 
+    private String avater;
+
     private Date createTime;
 
     private String username;

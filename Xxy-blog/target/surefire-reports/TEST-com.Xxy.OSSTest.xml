@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="1" failures="0" name="com.Xxy.OSSTest" time="0.275" errors="0" skipped="0">
+<testsuite tests="1" failures="0" name="com.Xxy.OSSTest" time="0.313" errors="0" skipped="0">
   <properties>
-    <property name="idea.version" value="2022.1.2"/>
+    <property name="idea.version" value="2024.1.4"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="17.0.8+9-LTS-211"/>
     <property name="sun.boot.library.path" value="D:\JDK1708\bin"/>
@@ -29,7 +29,8 @@
     <property name="maven.ext.class.path" value="D:\IDEA2022\IntelliJ IDEA 2022.1.2\plugins\maven\lib\maven-event-listener.jar"/>
     <property name="classworlds.conf" value="D:\SSM\maven\apache-maven-3.6.3\bin\m2.conf"/>
     <property name="sun.jnu.encoding" value="GBK"/>
-    <property name="java.library.path" value="D:\JDK1708\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\MVS\Runtime\Win32_i86;C:\Program Files (x86)\Common Files\MVS\Runtime\Win64_x64;E:\QT\6.2.4\mingw_64\bin;E:\QT\Tools\mingw1120_64\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.8\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.8\libnvvp;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;D:\Anaconda;D:\Anaconda\Scripts;D:\Anaconda\Library\bin;C:\Program Files\NVIDIA Corporation\Nsight Compute 2022.3.0\;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.8\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.8\lib\x64;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.8\libnvvp;D:\Matlab\runtime\win64;E:\MatlabRuntime\v97\runtime\win64;D:\Matlab\bin;D:\Matlab\polyspace\bin;C:\Program Files\Git\cmd;D:\Matlab\bin\win64;E:\matlab2022aruntime\2022aRuntime\v912\runtime\win64;E:\Mysql\bin;E:\nvm\npm;E:\tesseract;D:\JDK1708\bin;D:\SSM\maven\apache-maven-3.6.3\bin;E:\WechatDevelop\微信web开发者工具\dll;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;E:\nvm;C:\Program Files\nodejs;C:\Program Files\dotnet\;C:\Program Files (x86)\IVI Foundation\VISA\WinNT\Bin\;C:\Program Files\IVI Foundation\VISA\Win64\Bin\;C:\Program Files (x86)\IVI Foundation\VISA\WinNT\Bin;E:\Redis;C:\Users\RedFox\AppData\Local\Microsoft\WindowsApps;D:\PyCharm Community Edition 2022.3.3\bin;;D:\IDEA2022\IntelliJ IDEA 2022.1.2\bin;;E:\VSCODE\Microsoft VS Code\bin;E:\nvm;C:\Program Files\nodejs;."/>
+    <property name="java.library.path" value="D:\JDK1708\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\MVS\Runtime\Win32_i86;C:\Program Files (x86)\Common Files\MVS\Runtime\Win64_x64;E:\QT\6.2.4\mingw_64\bin;E:\QT\Tools\mingw1120_64\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.8\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.8\libnvvp;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;D:\Anaconda;D:\Anaconda\Scripts;D:\Anaconda\Library\bin;C:\Program Files\NVIDIA Corporation\Nsight Compute 2022.3.0\;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.8\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.8\lib\x64;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.8\libnvvp;D:\Matlab\runtime\win64;E:\MatlabRuntime\v97\runtime\win64;D:\Matlab\bin;D:\Matlab\polyspace\bin;C:\Program Files\Git\cmd;D:\Matlab\bin\win64;E:\matlab2022aruntime\2022aRuntime\v912\runtime\win64;E:\Mysql\bin;E:\nvm\npm;E:\tesseract;D:\JDK1708\bin;D:\SSM\maven\apache-maven-3.6.3\bin;E:\WechatDevelop\微信web开发者工具\dll;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;E:\nvm;C:\Program Files\nodejs;C:\Program Files\dotnet\;C:\Program Files (x86)\IVI Foundation\VISA\WinNT\Bin\;C:\Program Files\IVI Foundation\VISA\Win64\Bin\;C:\Program Files (x86)\IVI Foundation\VISA\WinNT\Bin;E:\Redis;;E:\GitLarge\Git LFS;E:\XFTP\;C:\Users\RedFox\AppData\Local\Microsoft\WindowsApps;D:\PyCharm Community Edition 2022.3.3\bin;;D:\IDEA2022\IntelliJ IDEA 2022.1.2\bin;;E:\VSCODE\Microsoft VS Code\bin;E:\nvm;C:\Program Files\nodejs;."/>
+    <property name="jansi.passthrough" value="true"/>
     <property name="maven.conf" value="D:\SSM\maven\apache-maven-3.6.3/conf"/>
     <property name="jdk.debug" value="release"/>
     <property name="java.class.version" value="61.0"/>
@@ -44,7 +45,7 @@
     <property name="java.class.path" value="D:\SSM\maven\apache-maven-3.6.3\boot\plexus-classworlds-2.6.0.jar;D:\SSM\maven\apache-maven-3.6.3\boot\plexus-classworlds.license"/>
     <property name="java.vm.specification.version" value="17"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version=2022.1.2 install"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version=2024.1.4 install"/>
     <property name="java.home" value="D:\JDK1708"/>
     <property name="user.language" value="zh"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
@@ -60,5 +61,5 @@
     <property name="sun.cpu.endian" value="little"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="com.Xxy.OSSTest" name="com.Xxy.OSSTest.testOss" time="0.275"/>
+  <testcase classname="com.Xxy.OSSTest" name="com.Xxy.OSSTest.testOss" time="0.313"/>
 </testsuite>

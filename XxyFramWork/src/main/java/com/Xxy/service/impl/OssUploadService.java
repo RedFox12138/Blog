@@ -31,14 +31,20 @@ public class OssUploadService implements UploadService {
         //判断文件类型
         //获取原始文件名
         String originalFilename = img.getOriginalFilename();
-        if(!originalFilename.endsWith(".png"))
-        {
+        //对原始文件名进行判断大小。只能上传png或jpg文件
+        if(!originalFilename.endsWith(".png") && !originalFilename.endsWith(".jpg")){
+            //AppHttpCodeEnum是我们在huanf-framework写的枚举类，FILE_TYPE_ERROR代表文件类型错误的提示
             throw new SystemException(AppHttpCodeEnum.FILE_TYPE_ERROR);
         }
-        String filePath = PathUtils.generateFilePath(originalFilename);
-        String url = uploadOss(img,filePath);
-        return ResponseResult.okResult(url);
 
+        //如果满足判断条件，则上传文件到七牛云OSS，并得到一个图片外链访问地址。PathUtil是我们在huanf-framework工程写的工具类
+        //PathUtils.generateFilePath(originalFilename)表示把原始文件名转换成指定文件名
+        String filePath = PathUtils.generateFilePath(originalFilename);
+
+        //下面用于调用的uploadOss方法返回的必须是String类型
+        String url = uploadOss(img,filePath);
+        //把得到的外链地址返回给前端
+        return ResponseResult.okResult(url);
     }
     private String uploadOss(MultipartFile imgFile, String filePath){
         //构造一个带指定 Region 对象的配置类
@@ -77,7 +83,7 @@ public class OssUploadService implements UploadService {
         } catch (Exception ex) {
             //ignore
         }
-        return "http://sfdcfj43j.hd-bkt.clouddn.com/"+key;
+        return "上传失败";
 
     }
 }

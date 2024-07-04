@@ -1,9 +1,12 @@
-com\Xxy\filter\JwtAuthenticationTokenFilter.class
-com\Xxy\controller\LoginController.class
 com\Xxy\controller\TagController.class
-com\Xxy\controller\ArticleController.class
+com\Xxy\controller\RoleController.class
 com\Xxy\config\SecurityConfig.class
 com\Xxy\BlogAdminApplication.class
 com\Xxy\controller\CategoryController.class
 com\Xxy\controller\MenuController.class
+com\Xxy\filter\JwtAuthenticationTokenFilter.class
+com\Xxy\controller\LinkController.class
+com\Xxy\controller\LoginController.class
+com\Xxy\controller\ArticleController.class
 com\Xxy\controller\UploadController.class
+com\Xxy\controller\UserController.class

@@ -5,6 +5,7 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 import java.util.Date;
+import java.util.List;
 
 @Data
 @NoArgsConstructor
@@ -25,5 +26,7 @@ public class ArticleDetailVo {
     //访问量
     private Long viewCount;
     private Date createTime;
+    private String userName;
+    private List<String> tagNameList;
 
 }
