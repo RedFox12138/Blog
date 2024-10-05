@@ -24,7 +24,7 @@ public class UpdateViewCountJob {
     @Scheduled(cron = "0/5 * * * * ?")
     public void updateViewCount(){
         //获取redis中的浏览量
-        Map<String, Integer> viewCountMap = redisCache.getCacheMap("article:viewCount");
+        Map<String, Integer> viewCountMap = redisCache.getCacheMap("Article:viewCount");
 
         List<Article> articles = viewCountMap.entrySet()
                 .stream()

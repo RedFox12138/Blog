@@ -14,4 +14,5 @@ public class XxyBlogApplication {
 
         SpringApplication.run(XxyBlogApplication.class,args);
     }
+
 }
