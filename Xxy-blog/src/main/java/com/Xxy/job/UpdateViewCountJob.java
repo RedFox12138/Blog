@@ -1,6 +1,7 @@
 package com.Xxy.job;
 
 import com.Xxy.domain.entity.Article;
+import com.Xxy.mapper.ArticleMapper;
 import com.Xxy.service.ArticleService;
 import com.Xxy.service.impl.ArticleServiceImpl;
 import com.Xxy.utils.RedisCache;
@@ -24,7 +25,7 @@ public class UpdateViewCountJob {
     @Scheduled(cron = "0/5 * * * * ?")
     public void updateViewCount(){
         //获取redis中的浏览量
-        Map<String, Integer> viewCountMap = redisCache.getCacheMap("Article:viewCount");
+        Map<String, Integer> viewCountMap = redisCache.getCacheMap("article:viewCount");
 
         List<Article> articles = viewCountMap.entrySet()
                 .stream()

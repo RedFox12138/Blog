@@ -24,9 +24,9 @@ public class ViewCountRunner implements CommandLineRunner {
     public void run(String... args) throws Exception {
         //查询博客信息 主要是id viewcount
         List<Article> articles = articleMapper.selectList(null);
-        Map<String,Integer> viewCountMap = articles.stream()
+        Map<String, Integer> viewCountMap = articles.stream()
                 .collect(Collectors.toMap(article -> article.getId().toString(), article -> article.getViewCount().intValue()));
         //存储到redis中
-        redisCache.setCacheMap("Article:viewCount",viewCountMap);
+        redisCache.setCacheMap("article:viewCount",viewCountMap);
     }
 }

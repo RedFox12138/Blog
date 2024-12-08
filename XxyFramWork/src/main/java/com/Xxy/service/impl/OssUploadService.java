@@ -68,7 +68,7 @@ public class OssUploadService implements UploadService {
                 DefaultPutRet putRet = new Gson().fromJson(response.bodyString(), DefaultPutRet.class);
                 System.out.println(putRet.key);
                 System.out.println(putRet.hash);
-                return "http://sfdcfj43j.hd-bkt.clouddn.com/"+key;
+                return "http://xxyblog12138.cn/"+key;
             } catch (QiniuException ex) {
                 ex.printStackTrace();
                 if (ex.response != null) {
